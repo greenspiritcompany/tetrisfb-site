@@ -1,0 +1,25 @@
+<FilesMatch "^[^\.]+$">
+        ForceType application/x-httpd-php
+</FilesMatch>
+
+# change .html files to identify as .php files
+AddType application/x-httpd-php .html
+
+Require all granted
+
+Options -Indexes
+
+#Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Methods "GET, POST, OPTIONS, PUT, DELETE"
+Header set Access-Control-Allow-Headers "Origin, X-Requested-With, Content-Type, Accept, API-Key, Authorization"
+
+# Enable rewrites
+RewriteEngine On
+RewriteBase /
+
+# The following two lines skip over other HTML/PHP files or resources like CSS, Javascript and image files 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# controller.php is the controller file
+RewriteRule ^.*$ controller.php [L]
