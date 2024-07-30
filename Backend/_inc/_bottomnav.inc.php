@@ -19,12 +19,12 @@
 					</form>
 				</div>
 				<div id="footer-copyright">
-					<a id="tetris-authentic-logo" href="http://www.tetris.com/" id="tetris" title="Authentic Tetris Game" target="_blank"><img src="<?php echo $assetUrl ?>/graphics/OW/AuthenticSeal.png" style="border:0px" alt="Visit Tetris.com!"/></a>
+					<a id="tetris-authentic-logo" href="https://thegreenspirit.ct8.pl/" id="tetris" title="See Green Spirit's amazing stuff!" target="_blank"><img src="<?php echo $assetUrl ?>/graphics/OW/AuthenticSpirit.png" style="border:0px" alt="Visit Tetris.com!"/></a>
 					
 					<h1>Tetris &reg; &amp; &copy; 1985~2024 Tetris Holding. Tetris logos, Tetris theme song and Tetriminos are trademarks of Tetris Holding.</h1>
-					<h1>The Tetris trade dress is owned by Tetris Holding. Licensed to The Tetris Company.</h1>
-					<h2>Game Design by Alexey Pajitnov. Original Logo Design by Roger Dean.</h2>
-					<h3>This is an unofficial revival by <a href="https://thegreenspirit.ct8.pl/" target="_blank">The Green Spirit</a>. All Rights Reserved.</h3>
+					<h1>Game Design by Alexey Pajitnov. Original Logo Design by Roger Dean.</h1>
+					<h2>This is an unofficial revival by <a href="https://thegreenspirit.ct8.pl/" target="_blank">The Green Spirit</a>, and is NOT licensed to The Tetris Company.</h2>
+					<h3>All other elements belongs to former company <a href="https://tetrisonline.com/" target="_blank">Tetris Online, Inc.</a> They were a good company who makes good games.</h3>
 				</div>
 				<div id="footer-options">
 					<a title="View our Privacy Policy" target="_blank" href="https://tetrisfb.ct8.pl/policy/privacy.php">PRIVACY</a> |

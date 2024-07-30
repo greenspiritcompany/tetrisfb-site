@@ -5,9 +5,9 @@ include '../Backend/common.php';
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
-<?php include $backendPath . '/include/_headMeta.inc.php'; ?>
+<?php include $backendPath . '/_inc/_headMeta.inc.php'; ?>
 
-<?php include $backendPath . '/include/_head.inc.php'; ?>
+<?php include $backendPath . '/_inc/_head.inc.php'; ?>
 	</head>
 	<body>
 	<div id="wrapper">
@@ -81,7 +81,7 @@ include '../Backend/common.php';
 
 		<div class="clear"></div>
 	
-<?php include $backendPath . '/include/_bottomnav.inc.php' ?>
+<?php include $backendPath . '/_inc/_bottomnav.inc.php' ?>
 		<div id="fb-root"></div>
 	</body>
 	<script type="text/javascript">
