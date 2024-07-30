@@ -1,0 +1,580 @@
+/* Main Container */
+/* ============== */
+body
+{
+	width: auto;
+	overflow: visible;
+	margin: 0;
+	padding: 0;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	background: #143A5A url(../../graphics/OW/TBboarders.png) repeat-x 0 0;
+}
+
+#wrapper,
+#content
+#container,
+#minibar,
+#header,
+#footer
+{
+	position: relative;
+	background-color: #fff;
+}
+
+#wrapper
+{
+	width: 1024px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#header
+{
+	margin-top: -15px;
+	height: 185px;
+	background: transparent url(../../graphics/OW/header.png) repeat-x 0 0;
+}
+
+#header #logo
+{
+	width: 220px;
+	height: 133px;
+	background: transparent url(../../graphics/OW/replayHeaderLogo.png) no-repeat 0 0;
+	position: absolute;
+	top: 15px;
+	left: 0;
+	z-index: 100;
+}
+
+#header #logo a
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: -9999px;
+}
+
+#header-options
+{
+	position: absolute;
+	bottom: 6px;
+	right: 5px;
+	color: #fff;
+}
+
+#header-options b
+{ 
+	color: #FFD800;
+}
+
+#header-profile-info
+{
+	position: relative; 
+	top: 4px
+}
+
+#header-profile-info a
+{
+	color: #fff;
+}
+
+#header-options #profile-pict
+{
+	height: 32px;
+	width: 32px; 
+	border: 1px solid #ccc; 
+	top: -4px; 
+	position: relative; 
+	margin-right: 10px
+}
+
+#login-facebook
+{
+	width: 202px;
+	height: 26px;
+	display: block;
+	text-indent: -9999px;
+	background: transparent url(../../graphics/OW/btn_connect.png) no-repeat 0 0;
+}
+
+#minibar
+{
+ 	height: 20px;
+ 	font-size: 14px;
+ 	border: 1px solid #c0c0c0;
+ 	border-width: 0 0 1px 0;
+	background-color: #ffeebb;
+	padding-top: 2px;
+}
+
+#minibar h1, 
+#minibar h2, 
+#minibar h3, 
+#minibar h4, 
+#minibar h5
+{
+	font-size: 12px;
+	display: inline;
+	font-weight: normal;
+}
+
+#container 
+{
+	height: 100%;
+}
+
+#content-left-col,
+#content-right-col,
+#content-center,
+#content-main
+{
+	position: relative;
+	float: left;
+}
+
+#content-left-col,
+#content-right-col
+{
+	top: 20px;
+	width: 160px;
+	z-index: 100;
+}
+
+#content-center
+{
+	margin-top: 10px;
+	width: 704px;
+}
+
+#content-main
+{
+	margin-top: 5px;
+	width: 864px
+}
+
+#content-left-col
+{
+	left: 10px;
+}
+
+#content-right-col
+{
+	right: 10px;
+}
+
+#container-left-bg,
+#container-right-bg
+{
+	position: absolute;
+	top: 0;
+	width: 10px;
+	height: 100%;
+}
+
+#container-left-bg
+{
+	left: -10px;
+	background: transparent url(../../graphics/OW/TBshadow.png) repeat-y 0 0;
+}
+
+#container-right-bg
+{
+	right: -10px;
+	background: transparent url(../../graphics/OW/TBshadow.png) repeat-y -10px 0;
+}
+
+#flash-object
+{
+	top: 0;
+	left: 0;
+}
+
+#no-flash
+{
+	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+	font-size: 11px;
+	padding: 20px 0;
+}
+
+#more-games-section {
+	display: block;
+	position: relative;
+	width: 660px;
+	padding: 5px 5px;
+	margin: 30px auto 0;
+		
+	border: 1px solid #C0C0C0;
+	border-width: 1px 0 0 0;
+}
+
+.more-games-btn {
+	outline: none;
+	text-indent: -9999px
+}
+
+#more-games-section table 
+{
+	position: relative;
+	margin: 0;
+}
+
+.more-games-btn 
+{
+	position: relative;
+	width: 194px;
+	height: 83px;
+	display: block;
+	overflow: hidden;
+}
+
+.more-games-btn:hover 
+{
+	background-position: 0 -83px;
+}
+
+#footer
+{
+	width: auto;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0 0;
+	margin: 30px 0;
+}
+
+#footer-copyright
+{
+	width: 1000px;
+	padding: 10px 0;
+	margin: 0 auto;
+	margin-top: 15px;
+	text-align: left;
+	color: #666;
+}
+
+#footer h1, 
+#footer h2, 
+#footer h3, 
+#footer h4, 
+#footer h5
+{
+	font-size: 11px;
+	display: block;
+	font-weight: normal;
+}
+
+#footer #tetris-authentic-logo
+{
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 4px;
+}
+
+#footer-options
+{
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+}
+
+#footer-options a
+{
+	color: #888 !important;
+	font-weight: bold;
+}
+
+.ad-container
+{
+	position: relative;
+	display: block;
+}
+
+#loading-container
+{
+	display: none;
+}
+
+#login-container
+{
+	position: relative;
+	left: -20px;
+	width: 805px;
+	height: 508px;
+	background: url(../../graphics/OW/tbLogIn.png) no-repeat 0 0;
+}
+
+.facebook-large-login-button
+{
+	width: 365px;
+	height: 144px;
+	display: block;
+	text-indent: -9999px;
+	background: transparent url(../../graphics/OW/btn_connect_large.png) no-repeat 0 0;
+	cursor: pointer;
+}
+
+.facebook-large-login-button:hover
+{
+	background-position: 0 -144px;
+	position: relative;
+}
+
+.facebook-small-login-button
+{
+	position: relative;
+	width: 97px;
+	height: 32px;
+	display: block;
+	text-indent: -9999px;
+	background: transparent url(../../graphics/OW/btn_connect_small.png) no-repeat 0 0;
+	cursor: pointer;
+}
+
+.facebook-small-login-button:hover
+{
+	background-position: 0 -32px;
+}
+
+#login-container .facebook-large-login-button
+{
+	position: relative;
+	top: 181px;
+	left: 25px;
+}
+
+#replayer-banner-form
+{
+	position: relative;
+	background-color: #357ABF;
+	text: #fff;
+	border: 1px solid #2B2B2B;
+	border-bottom-color: #c0c0c0;
+	border-width: 2px 0 1px 0;
+}
+
+#replayer-banner-form #replayer-header
+{
+	position: absolute;
+	top: -42px;
+	left: 0;
+	width: 404px;
+	height: 71px;
+	background: transparent url(../../graphics/OW/replayBanner.png) no-repeat 0 0;
+}
+
+#replayer-banner-form #replay-id-input
+{
+	margin-top: 0;
+	height: 22px;
+	border: 2px solid #28439D;
+	line-height: 1;
+}
+
+#replayer-banner-form form
+{
+	position: relative; 
+	width: 600px; 
+	left: 45px; 
+	color: #fff
+}
+
+
+
+/* Promotional Gift (gift.php) */
+#gift-container,
+#gift-thumb,
+#gift-options
+{
+	position: relative;
+}
+
+#gift-container
+{
+	width: 274px;
+	margin: 0 auto;
+}
+
+#gift-thumb
+{
+	margin-top: 50px;
+}
+
+#gift-thumb #gift-christmas
+{
+	display: block;
+	width: 274px;
+	height: 208px;
+	background: transparent url(../../graphics/OW/thumb.png) no-repeat 0 0;
+}
+
+#gift-options
+{
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+
+/* Replayer (replayer.php) */
+#replayer-container
+{
+	height: 500px;
+}
+
+#replayer-container #replayer-form-container,
+#replayer-container #flash-container
+{
+	margin-top: 100px;
+}
+
+#replayer-container #replayer-form-container
+{
+	font-size: 24px;
+}
+
+#replayer-container #flash-object
+{
+	border: 1px solid #ccc;
+}
+
+#replayer-form table
+{
+	margin: 0 auto;
+}
+
+#replayer-form input
+{
+	border: 1px solid #c0c0c0;
+	font-size: 18px;
+	color: #333;
+}
+
+.replay-watch-btn
+{
+	position: relative;
+	border: 0 !important;
+	width: 100px;
+	height: 38px;
+	cursor: pointer;
+	background: transparent url(../../graphics/OW/btn_watch.png) no-repeat 0 0;
+}
+
+.replay-watch-btn-disabled
+{
+	background-position: 0 -76px !important;
+}
+
+#replay-watch-btn:hover
+{
+	background-position: 0 -38px;
+}
+
+.replay-copy-button
+{
+	position: relative;
+	border: 0 !important;
+	width: 74px;
+	height: 38px;
+	top: 4px;
+	cursor: pointer;
+	background: transparent url(../../graphics/OW/btn_copy.png) no-repeat 0 0;
+}
+
+.replay-copy-button.hover
+{
+	background-position: 0 -38px !important;
+}
+
+#replay-info
+{
+	width: 600px;
+	margin: 15px auto;
+	font-size: 14px;
+}
+
+#replay-info table tr
+{
+	height: 30px;
+}
+
+#replay-info table th
+{
+	text-align: right;
+	padding-right: 10px;
+}
+
+#replay-embed p,
+#replay-embed textarea
+{
+	float: left;
+}
+
+#replay-id-input,
+#replay-embed-html
+{
+	border: 1px solid #ccc;
+	width: 350px;
+	height: 32px;
+	resize: none;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 5px;
+}
+
+#replay-note
+{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 11px;
+}
+
+#share-container > table
+{
+	position: relative;
+	width: 600px;
+	margin: 40px auto 10px auto;
+}
+
+#embed-content
+{
+	width: 580px;
+	margin: 0 auto;
+	height: 0;
+	overflow: hidden;
+}
+
+#embed-info
+{
+	position: relative;
+	width: 100%;
+	border: 1px solid #cdcdcd;
+	background: #ececec;
+}
+
+#embed-button
+{
+	margin-left: 20px;
+	width: 80px;
+	height: 36px;
+	display: inline-block;
+	background: #fff url(../../graphics/btn_embed.png) no-repeat 0 0;
+}
+
+#embed-button:hover
+{
+	background-position: 0 -36px;
+}
+
+.fbcredits-option .credit-amount {
+    width: 75px;
+}
+
+#legal-container .legal_content
+{
+	font-family: Arial;
+	padding: 10px 30px;
+}
+
+#legal-container .legal_content ol#jump_links
+{
+	margin: 10px 25px;
+}

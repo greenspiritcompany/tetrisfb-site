@@ -1,0 +1,257 @@
+/* Tetris Online Style Sheet */
+/* ========================== */
+
+/* General Rules */
+/* ------------- */
+
+*
+{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+html 
+{
+	height: 100%;
+	overflow-y: scroll;
+}
+
+body
+{
+	height: 100%;
+	font-family: Avant Garde, Verdana, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #333;
+}
+
+a
+{
+	color: #43B7F2;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #0F7AC8;
+	text-decoration: underline;
+}
+
+h1, h2, h3, h4
+{
+	margin-bottom: 0.4em;
+	font-weight: normal;
+}
+
+h1
+{
+	/* font-size: 1.8em; */	
+}
+
+h2
+{
+	font-size: 1.8em;	
+}
+
+h3
+{
+	font-size: 1.5em;	
+}
+
+h4
+{
+	font-size: 14px;	
+}
+
+p
+{
+	margin-bottom: 1em;
+}
+
+ul
+{
+	margin-left: 20px;
+}
+
+.hr
+{
+	margin: 10px 0;
+	height: 0;
+	border: 1px solid #ccc;
+	border-width: 1px 0 0 0 ;	
+}
+
+.floatright
+{
+  position: relative;
+  display: inline;
+  float: right;
+}
+
+.floatleft
+{
+  position: relative;
+  display: inline;
+  float: left;
+}
+
+.textleft
+{
+	text-align: left;
+}
+
+.textright
+{
+	text-align: right;	
+}
+
+.textcenter
+{
+	text-align: center;	
+}
+
+.margincenter
+{
+	display: block;
+	margin: 0 auto;	
+}
+
+.margin_5px
+{
+	margin: 5px;	
+}
+
+.margin_10px
+{
+	margin: 10px;	
+}
+
+.padding_5px
+{
+	padding: 5px;	
+}
+
+.marginright_5px
+{
+	margin-right: 5px;	
+}
+
+.marginleft_5px
+{
+	margin-left: 5px;	
+}
+
+.marginleft_10px
+{
+	margin-left: 10px;	
+}
+
+.marginleft_15px
+{
+	margin-left: 15px;	
+}
+
+.marginleft_20px
+{
+	margin-left: 20px;	
+}
+
+.margintop_5px
+{
+	margin-top: 5px;
+}
+
+.margintop_10px
+{
+	margin-top: 10px;	
+}
+
+.margintop_20px
+{
+	margin-top: 20px;	
+}
+
+.margintop_30px
+{
+	margin-top: 30px;	
+}
+
+.margintop_40px
+{
+	margin-top: 40px;	
+}
+
+.margintop_50px
+{
+	margin-top: 50px;	
+}
+
+.margintop_60px
+{
+	margin-top: 60px;	
+}
+
+.margintop_70px
+{
+	margin-top: 70px;	
+}
+
+
+.marginbottom_5px
+{
+	margin-bottom: 5px;
+}
+
+.marginbottom_10px
+{
+	margin-bottom: 10px;
+}
+
+.marginbottom_20px
+{
+	margin-bottom: 20px;
+}
+
+.marginbottom_30px
+{
+	margin-bottom: 30px;
+}
+
+.marginbottom_40px
+{
+	margin-bottom: 40px;
+}
+
+.margincenter
+{
+	margin: 0 auto;	
+}
+
+.left_5px
+{
+	left: 5px;
+}
+
+.right_5px
+{
+	right: 5px;
+}
+
+.top_5px
+{
+	top: 5px;
+}
+
+.bottom_5px
+{
+	bottom: 5px;
+}
+
+.clear {
+	clear:both;
+	height: 0;
+	overflow: hidden;
+	font-size: 0;
+}
