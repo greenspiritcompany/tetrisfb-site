@@ -154,7 +154,7 @@ include '../Backend/common.php';
 			var replayId = "<?php echo $_GET['id'] ?>"; 
 			var replayCdnUrl = "";
 
-			replayCdnUrl = "//tetrisfb-preprod.ct8.pl/data1.81.0/flash/replayer/launcher.swf?url="; // "http://" was at the end of the URL but it shitted so, yeah.
+			replayCdnUrl = "//tetrisfb.ct8.pl/data1.81.0/flash/replayer/launcher.swf?url="; // "http://" was at the end of the URL but it shitted so, yeah.
 			
 			return {
 				advertisingPartialURL: Tetris.config.staticUrl + "/advertisement/",
