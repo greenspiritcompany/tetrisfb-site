@@ -298,7 +298,8 @@ body
 	left: -20px;
 	width: 805px;
 	height: 508px;
-	background: url(../../graphics/OW/tbLogIn.png) no-repeat 0 0;
+	/*background: url(../../graphics/OW/tbLogIn.png) no-repeat 0 0;*/
+	background: url(../../graphics/tb_teaser.png) no-repeat 0 0;
 }
 
 .facebook-large-login-button
@@ -307,7 +308,8 @@ body
 	height: 144px;
 	display: block;
 	text-indent: -9999px;
-	background: transparent url(../../graphics/OW/btn_connect_large.png) no-repeat 0 0;
+	/*background: transparent url(../../graphics/OW/btn_connect_large.png) no-repeat 0 0;*/
+	background: transparent url(../../graphics/btn_playnow.png) no-repeat 0 0;
 	cursor: pointer;
 }
 

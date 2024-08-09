@@ -62,7 +62,7 @@ include '../Backend/common.php';
 					<table>
 						<tr>
 							<td>
-								<iframe src="//www.facebook.com/plugins/like.php?href&amp;send=false&amp;layout=button_count&amp;width=120&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=249860381692947" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:75px; height:21px;" allowtransparency="true"></iframe>
+								<!--<iframe src="//www.facebook.com/plugins/like.php?href&amp;send=false&amp;layout=button_count&amp;width=120&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=249860381692947" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:75px; height:21px;" allowtransparency="true"></iframe>-->
 							</td>
 							<td>
 								<a href="https://twitter.com/share" class="twitter-share-button"></a>
@@ -70,30 +70,30 @@ include '../Backend/common.php';
 							</td>
 							<td>
 								<!-- Place this tag where you want the +1 button to render -->
-								<g:plusone size="medium" annotation="inline" width="120"></g:plusone>
+								<!--<g:plusone size="medium" annotation="inline" width="120"></g:plusone>-->
 								
 								<!-- Place this render call where appropriate -->
-								<script type="text/javascript">
+								<!--<script type="text/javascript">
 								  (function() {
 								    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
 								    po.src = 'https://apis.google.com/js/plusone.js';
 								    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
 								  })();
-								</script>
+								</script>-->
 							</td>
 							<td>
 								<!-- Facebook -->
-								<a href="javascript:void(0)" onclick="window.open('http://www.facebook.com/share.php?u=' + encodeURIComponent(window.location) + '&amp;t=' + encodeURIComponent(document.title)); return false"> <img width="16" height="16" border="0" src="//tetrisow.ct8.pl/data5_0_1_1/images/sharethis/14x14_facebook.gif" alt="Facebook"> </a>
+								<a href="javascript:void(0)" onclick="window.open('http://www.facebook.com/share.php?u=' + encodeURIComponent(window.location) + '&amp;t=' + encodeURIComponent(document.title)); return false"> <img width="16" height="16" border="0" src="<?php echo $assetUrl ?>/images/sharethis/14x14_facebook.gif" alt="Facebook"> </a>
 								<!-- StumbleUpon -->
-								<!--<a href="javascript:void(0)" onclick="window.open('http://www.stumbleupon.com/submit?url=' + encodeURIComponent(window.location) + '&amp;title=' + encodeURIComponent(document.title)); return false"><img border="0" src="//tetrisow.ct8.pl/data5_0_1_1/images/sharethis/16x16_su_round_clean.gif" alt="StumbleUpon"> </a>-->
+								<!--<a href="javascript:void(0)" onclick="window.open('http://www.stumbleupon.com/submit?url=' + encodeURIComponent(window.location) + '&amp;title=' + encodeURIComponent(document.title)); return false"><img border="0" src="<?php echo $assetUrl ?>/images/sharethis/16x16_su_round_clean.gif" alt="StumbleUpon"> </a>-->
 								<!-- MySpace --> 
 								<a href="javascript:void(0)" onclick="window.open('http://www.myspace.com/Modules/PostTo/Pages/?u='+encodeURIComponent(document.location.toString()))"> <img src="//cms.myspacecdn.com/cms//ShareOnMySpace/Myspace_16.png" border="0" alt="Share on Myspace"/> </a>
 								<!-- Reddit -->
 								<a href="javascript:void(0)" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(window.location)); return false"> <img src="//www.reddit.com/static/spreddit1.gif" alt="submit to reddit" border="0"/> </a>
 								
-								<!--<div id="orkut_share" style="display: inline"></div><script src="http://www.google.com/jsapi" type="text/javascript"></script><script type="text/javascript">google.load('orkut.share', '1');google.setOnLoadCallback(function(){new google.orkut.share.Button({style:'mini'}).draw('orkut_share');}, true);</script>
+								<!--<div id="orkut_share" style="display: inline"></div><script src="http://www.google.com/jsapi" type="text/javascript"></script><script type="text/javascript">google.load('orkut.share', '1');google.setOnLoadCallback(function(){new google.orkut.share.Button({style:'mini'}).draw('orkut_share');}, true);</script>-->
 								
-								<a target="_parent" href="javascript:void(0)" onclick="window.open('http://del.icio.us/post?url=' + encodeURIComponent(window.location) + '&amp;title=' + encodeURIComponent(document.title)); return false"><img width="16" height="16" border="0" src="//tetrisow.ct8.pl/data5_0_1_1/images/sharethis/16x16_delicious.gif" alt="Delicious"></a>-->
+								<!--<a target="_parent" href="javascript:void(0)" onclick="window.open('http://del.icio.us/post?url=' + encodeURIComponent(window.location) + '&amp;title=' + encodeURIComponent(document.title)); return false"><img width="16" height="16" border="0" src="<?php echo $assetUrl ?>/images/sharethis/16x16_delicious.gif" alt="Delicious"></a>-->
 								
 								<a target="_parent" href="javascript:void(0)" onclick="window.location = 'mailto:?subject=Watch%20My%20Tetris%20Battle%20Replay!&amp;body=' + encodeURIComponent(window.location); return false"><img width="16" height="16" border="0" src="<?php echo $assetUrl ?>/graphics/OW/mailicon_16x16.png"></a>
 							</td>
@@ -131,15 +131,15 @@ include '../Backend/common.php';
 	<div id="fb-root"></div>
 	<script type="text/javascript">
 		$(document).ready(function() {
-			if (typeof(FB.log) != 'function') {
-				FB.log = function(data) {
+			if (typeof(SpiritAccount.log) != 'function') {
+				SpiritAccount.log = function(data) {
 					if (typeof(console) != undefined && typeof(console) != "undefined") {
 			    		console.log(data);
 			    	}
 				};
 			}
 			
-		    Tetris.config.appId = 130409810307796;
+		    Tetris.config.appId = 4;
 		    Tetris.config.staticUrl = '//tetrisbattle.ct8.pl/';
 		    Tetris.channelUrl = 'https://tetrisbattle.ct8.pl/channel_ssl.html';
 
@@ -154,16 +154,13 @@ include '../Backend/common.php';
 			var replayId = "<?php echo $_GET['id'] ?>"; 
 			var replayCdnUrl = "";
 
-			//replayCdnUrl = "http://tetrisfb-a.akamaihd.net/data/flash/replayer/launcher.swf?url=http://";
-			//replayCdnUrl = "http://data.tbc.tetrisfb.com/data/flash/replayer/launcher.swf?url=http://";
-			replayCdnUrl = "//tetrisbattle-assets.ct8.pl/data1.81.0/flash/replayer/launcher.swf?url=";
+			replayCdnUrl = "//tetrisfb-preprod.ct8.pl/data1.81.0/flash/replayer/launcher.swf?url="; // "http://" was at the end of the URL but it shitted so, yeah.
 			
 			return {
 				advertisingPartialURL: Tetris.config.staticUrl + "/advertisement/",
 				staticURL: Tetris.config.staticUrl,
 				replayId: replayId,
 				replayerCdnUrl: replayCdnUrl,
-				//replayerApiUrl: "http://tbc.tetrisfb.com/",
 				replayerApiUrl: "//tetrisfb.ct8.pl/",
 				minimumVersion: {
 		          	majorVersion: 10,

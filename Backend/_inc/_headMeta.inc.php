@@ -5,6 +5,7 @@
 	    <meta http-equiv="Expires" content="0"/>
 		<meta name="keywords" content="tetris, tetris battle, tetrisbattle, play tetris, tetris online, tetris game, free tetris, friends, online, games, free, multiplayer, live, alexey, pajitnov, tetris friends"/>
 		<meta name="description" content="Battle - The official multiplayer Tetris game you can play with your friends online! Play Tetris for free today!"/>		
-		
-		<meta name="google-site-verification" content="9Z_PqwpNsZjb4bMglHw87KI1OHE0611bcgt9OmudRYw"/>
+		<meta property="og:title" content="Tetris Battle - Watch Replay"/>		
+		<meta property="og:image" content="<?php echo $assetUrl ?>/graphics/OW/replayHeaderLogo.png"/>		
+		<!--<meta name="google-site-verification" content="9Z_PqwpNsZjb4bMglHw87KI1OHE0611bcgt9OmudRYw"/>-->
 		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>

@@ -1,7 +1,8 @@
 		<link rel="shortcut icon" href="/favicon.ico"/>
 		
-		<script src="//connect.facebook.net/en_US/all.js" type="text/javascript"></script>
-		<script charset="utf-8" src="<?php echo $assetUrl ?>/js/combined-ow.min.js" type="text/javascript"></script>
+		<script src="//thegreenspirit.ct8.pl/spiritaccount/js/sdk.js" type="text/javascript"></script>
+		<!--<script charset="utf-8" src="<?php echo $assetUrl ?>/js/combined-ow.min.js" type="text/javascript"></script>-->
+		<script charset="utf-8" src="<?php echo $assetUrl ?>/js/ow.js" type="text/javascript"></script>
 		<link rel="stylesheet" href="<?php echo $assetUrl ?>/css/eng/combined-ow.min.css" type="text/css" media="screen"/>
 		<link rel="stylesheet" href="<?php echo $assetUrl ?>/css/common/general.css" type="text/css" media="screen"/>
 		<link rel="stylesheet" href="<?php echo $assetUrl ?>/css/common/web.css" type="text/css" media="screen"/>

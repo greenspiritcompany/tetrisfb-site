@@ -25,28 +25,19 @@ include '../Backend/common.php';
 						<div id="loading-text">...loading...</div>
 			        </div>
 			        <div id="app-container" style="height: 520px; width: 760px;">
-						<!--<div id="main-container"><div id="login-container"><div class="facebook-large-login-button facebook-login" onclick="window.top.location='https://thegreenspirit.ct8.pl/spiritaccount/apps/tetrisbattle'"></div></div></div>-->
-						
-						<div id="main-container" align="center">
-							<h1 style="font-size: 14px">Tetris Battle is coming soon... In the mean time, challenge yourself with a game of Tetris Marathon!</h1>
-							<div id="flashContent" style="height: 640px; width: 470px;"></div><br>
-							<span style="font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;font-size:11px;">
-								If the game doesn't load or you experience problems, please see
-								<a href="https://thegreenspirit.ct8.pl/games/flash.html" target="_parent"> this guide</a>.
-							</span>
-						</div>
+						<div id="main-container"><div id="login-container"><!--<div class="facebook-large-login-button facebook-login" onclick="window.top.location='https://thegreenspirit.ct8.pl/spiritaccount/apps/tetrisbattle'"></div>--></div></div>
 					</div>
 				</div>
 				<table id="content-promo" cellpadding="0" cellborder="0" cellspacing="0">
 					<tr>
 						<td>
-							<a id="btn-bpb" href="https://apps.facebook.com/bubblepopbattle/?kt_type=partner&amp;kt_st1=app_announcement&amp;kt_st2=tb.com">Try our new game Bubble Pop Battle!</a>
+							<a id="btn-bpb" href="https://youdontknowjack.ct8.pl/">This hyperlink will lead somewhere.</a>
 						</td>
 						<td>
-							<a id="btn-twitter" href="https://twitter.com/tetrisbattle/?kt_type=partner&amp;kt_st1=app_announcement&amp;kt_st2=tb.com">Visit us on Twitter</a>
+							<a id="btn-twitter" href="https://twitter.com/tetrisbattle/">Visit the former Tetris Battle on Twitter</a>
 						</td>
 						<td>
-							<a id="btn-forums" href="https://retry-game.ct8.pl">Join the Forums</a>
+							<a id="btn-forums" href="https://discord.gg/UTkJ5zE6wX">Join the Spirit Lair community</a>
 						</td>
 					</tr>
 				</table>
@@ -84,25 +75,4 @@ include '../Backend/common.php';
 <?php include $backendPath . '/_inc/_bottomnav.inc.php' ?>
 		<div id="fb-root"></div>
 	</body>
-	<script type="text/javascript">
-		// Temporary!
-		function renderFlash() {
-			flashVars = {
-				version : '002'
-			};
-	
-			function setFocusOnFlash() {
-		    	var fl = document.getElementById('TetrisWebFlash');
-				if (fl) { fl.focus(); }
-			}
-	
-			swfobject.embedSWF("data" + flashVars.version + "/flash/TetrisWebFlash.swf", "flashContent", "640", "470", "9.0.0", {}, flashVars, {wmode: "window"}, {allowscriptaccess: "always"}, {id:"TetrisWebFlash", name:"TetrisWebFlash"});
-			var flashContainer = document.getElementById('container');
-			flashContainer.focus();
-	
-			swfobject.addDomLoadEvent(setFocusOnFlash);
-		}
-		
-		renderFlash();
-	</script>
 </html>
