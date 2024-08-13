@@ -25,7 +25,7 @@ include '../Backend/common.php';
 						<div id="loading-text">...loading...</div>
 			        </div>
 			        <div id="app-container" style="height: 520px; width: 760px;">
-						<div id="main-container"><div id="login-container"><!--<div class="facebook-large-login-button facebook-login" onclick="window.top.location='https://thegreenspirit.ct8.pl/spiritaccount/apps/tetrisbattle'"></div>--></div></div>
+						<div id="main-container"><div id="login-container"><div class="facebook-large-login-button facebook-login" onclick="window.top.location='https://thegreenspirit.ct8.pl/spiritaccount/apps/tetrisbattle'"></div></div></div>
 					</div>
 				</div>
 				<table id="content-promo" cellpadding="0" cellborder="0" cellspacing="0">

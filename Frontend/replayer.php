@@ -154,14 +154,14 @@ include '../Backend/common.php';
 			var replayId = "<?php echo $_GET['id'] ?>"; 
 			var replayCdnUrl = "";
 
-			replayCdnUrl = "//tetrisfb.ct8.pl/data1.81.0/flash/replayer/launcher.swf?url="; // "http://" was at the end of the URL but it shitted so, yeah.
+			replayCdnUrl = "https://tetrisfb.ct8.pl/data1.81.0/flash/replayer/launcher.swf?url="; // "http://" was at the end of the URL but it shitted so, yeah.
 			
 			return {
 				advertisingPartialURL: Tetris.config.staticUrl + "/advertisement/",
 				staticURL: Tetris.config.staticUrl,
 				replayId: replayId,
 				replayerCdnUrl: replayCdnUrl,
-				replayerApiUrl: "//tetrisfb.ct8.pl/",
+				replayerApiUrl: "https://tetrisfb.ct8.pl",
 				minimumVersion: {
 		          	majorVersion: 10,
 		            minorVersion: 0,
