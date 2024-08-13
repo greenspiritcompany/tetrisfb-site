@@ -1,3 +1,5 @@
+		<!--<meta name="google-site-verification" content="9Z_PqwpNsZjb4bMglHw87KI1OHE0611bcgt9OmudRYw"/>-->
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
 		<link rel="shortcut icon" href="/favicon.ico"/>
 		
 		<script src="//thegreenspirit.ct8.pl/spiritaccount/js/sdk.js" type="text/javascript"></script>

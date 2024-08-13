@@ -6,7 +6,8 @@ include '../Backend/common.php';
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 <?php include $backendPath . '/_inc/_headMeta.inc.php'; ?>
-
+<meta property="og:title" content="Tetris Battle - Watch Replay"/>		
+		<meta property="og:image" content="<?php echo $assetUrl ?>/graphics/OW/replayHeaderLogo.png"/>		
 <?php include $backendPath . '/_inc/_head.inc.php'; ?>
 	</head>
 	<body>
